@@ -22,9 +22,10 @@ The contributions of this paper:
 ![Acc Results](Figure/results.png)
 ## Preparation
 
-Dataset: [spMohanty Github](https://github.com/spMohanty/PlantVillage-Dataset/tree/master)  
+* Dataset: [spMohanty Github](https://github.com/spMohanty/PlantVillage-Dataset/tree/master)  
 (You can group all images into single folder to directly use the csv file provided in this repo)
 
+* download [ViT pretrained weight](https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_p16_224-80ecf9dd.pth) link (From [rwightman Github timm repo](https://github.com/huggingface/pytorch-image-models))
 ## Implementations
 Code will be available soon
 
