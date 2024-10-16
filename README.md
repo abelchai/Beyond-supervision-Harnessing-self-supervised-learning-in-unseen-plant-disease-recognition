@@ -19,7 +19,7 @@ The contributions of this paper:
 2. In our qualitative analyses, we illustrate that CL-ViT learns a feature space capable of discriminating between different classes while minimizing the domain gap between seen and unseen data. This underscores the superiority of CL-ViT in implementing a more effective guided learning mechanism.
 
 ## Results
-
+![Acc Results](Figure/Results)
 ## Preparation
 
 ## See also
