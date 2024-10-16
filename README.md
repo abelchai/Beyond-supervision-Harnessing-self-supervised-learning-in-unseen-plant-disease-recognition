@@ -25,9 +25,25 @@ The contributions of this paper:
 Dataset: [spMohanty Github](https://github.com/spMohanty/PlantVillage-Dataset/tree/master)  
 (You can group all images into single folder to directly use the csv file provided in this repo)
 
+## Implementations
+Code will be available soon
+
 ## See also
+1. [Pairwise Feature Learning for Unseen Plant Disease Recognition](https://ieeexplore.ieee.org/abstract/document/10222401/): The original implementation of FF-ViT model with moving weighted sum.
+2. [Unveiling Robust Feature Spaces: Image vs. Embedding-Oriented Approaches for Plant Disease Identification](https://ieeexplore.ieee.org/abstract/document/10317550/): The analysis between image or embedding feature space for plant disease identifications.
+
+## Dependencies
+Pandas == 1.4.1  
+Numpy == 1.22.2  
+torch == 1.10.2  
+timm == 0.5.4  
+tqdm == 4.62.3  
+torchvision == 0.11.3  
+albumentations == 1.1.0  
 
 ## License
+
+Creative Commons Attribution-Noncommercial-NoDerivative Works 4.0 International License (“the [CC BY-NC-ND License](https://creativecommons.org/licenses/by-nc-nd/4.0/)”)
 
 ## Citation
 
