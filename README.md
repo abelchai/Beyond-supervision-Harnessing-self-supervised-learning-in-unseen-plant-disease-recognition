@@ -3,7 +3,8 @@
 ## Introduction
 This is a pytorch implementation for CL-ViT and FF-ViT in [Beyond supervision: Harnessing self-supervised learning in unseen plant disease recognition](https://www.sciencedirect.com/science/article/pii/S0925231224013791)
 
-
+![Cl-ViT](Figure/CL-ViT.png)
+![FF-ViT](Figure/FF-ViT.png)
 
 ## Results
 
