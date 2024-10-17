@@ -30,6 +30,7 @@ Notes
 
 
 FF-ViT >> [code](model/FF-ViT.py)
+
 Notes
 * The csv file (metadata of images) are [here](dataset/csv_FFViT/)  
 (path_list.csv to locate the csv.file for all crop and disease training classes)
