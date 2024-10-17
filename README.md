@@ -23,10 +23,9 @@ The contributions of this paper:
 
 * download [ViT pretrained weight](https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_p16_224-80ecf9dd.pth) link (From [rwightman Github timm repo](https://github.com/huggingface/pytorch-image-models))
 ## Implementations
-CL-ViT >> [code](Cross-Learning-Vision-Transformer-CL-ViT/model/CL-ViT.py)
+CL-ViT >> [code](model/CL-ViT.py)
 
-
-FF-ViT >> [code](Cross-Learning-Vision-Transformer-CL-ViT/model/FF-ViT.py)
+FF-ViT >> [code](model/FF-ViT.py)
 
 ## See also
 1. [Pairwise Feature Learning for Unseen Plant Disease Recognition](https://ieeexplore.ieee.org/abstract/document/10222401/): The first implementation of FF-ViT model with moving weighted sum. The current work improved and evaluated the performance of FF-ViT model on larger-scale dataset.
