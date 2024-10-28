@@ -318,14 +318,14 @@ model_cls = timm.create_model(model_name, pretrained=False,num_classes=0)
 # load finetune weight for crop model
 if pretrained:
     print("Using Pre-Trained Model for crop")
-    MODEL_PATH = "C:/Users/User/Desktop/Vision Transformer/Pre-trained model/load model/TIP v2/vit_base_patch16_224_30e_0.001L5G0.1_HeavyForSL_99.7359_99.8930_B8_PV-P37c-model-S0-1.pth"
+    MODEL_PATH = "path to your pretrained weight in pth"
     model_cls.load_state_dict(torch.load(MODEL_PATH),strict=False)
 model_dis = timm.create_model(model_name, pretrained=False,num_classes=0)
 
 # load finetune weight for disease model
 if pretrained:
     print("Using Pre-Trained Model for disease")
-    MODEL_PATH = "C:/Users/User/Desktop/Vision Transformer/Pre-trained model/load model/TIP v2/vit_base_patch16_224_29e_0.001L5G0.1_HeavyForSL_99.4230_99.7179_B8_PV-D37c-model-S0-1.pth"
+    MODEL_PATH = "path to your pretrained weight in pth"
     model_dis.load_state_dict(torch.load(MODEL_PATH),strict=False)
 
 model_cls.to(device)
